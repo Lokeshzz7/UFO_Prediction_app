@@ -36,7 +36,8 @@
         <button type="submit" class="btn">Predict Country</button>
       </form>
 
-      <p class="prediction-text">{{ prediction_text }}</p>
+      <p class="prediction-text {% if prediction_text %}show{% endif %}">{{ prediction_text }}</p>
+
 
     </div>
 

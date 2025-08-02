@@ -116,12 +116,9 @@ button.btn:hover {
   margin-top: 30px;
   font-size: 20px;
   color: #90EE90;
+  opacity: 0;
   font-weight: bold;
   transition: opacity 0.5s ease;
-}
-
-.prediction-text {
-  opacity: 0;
 }
 
 .prediction-text.show {
